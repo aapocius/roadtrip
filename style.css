@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html { 
+  background: url(road.jpg) no-repeat center center fixed; 
+  
+  background-size: cover;
+}
+h2 {
+    text-align: center;
+}
+form {
+
+    max-width: 600px;
+    background: rgb(228, 217, 217);
+    color: black;
+    text-align: left;
+    line-height:30px;
+    margin: 200px auto;
+    padding: 15px;
+    
+    
+
+}
+form input,
+form label {
+    background:rgb(228, 217, 217) ;
+    
+    border-bottom: 1px  black;
+    display: blo;
+    width: 100%;
+    margin: auto;
+}
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    padding 15px;
+   
+}
+.tekstas {
+    line-height: 60px;
+}
+form button {
+    
+    margin: 20px 0;
+    width: 140px;
+    height: 20px;
+    border: none;
+    
+    background: rgb(51, 50, 50);
+    color: white;
+    font-size: 15px;
+
+}
+#submited {
+    margin: 200px auto;
+    text-align: center;
+    
+    padding-top: 20px;
+    
+}
+#submited h2 {
+    text-align: center;
+    
+}
+#submited img {
+    display: block;
+    padding-left: 170px;
+
+}
